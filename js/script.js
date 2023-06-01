@@ -67,7 +67,6 @@ console.log(tavoloVip)
 // LOGICA DEL PROGRAMMA
 
 // CICLO FOREACH PER LA STAMPA DELLA LISTA DEGLI INVITATI DA MANDARE IN TIPOGRAFIA
-
 tavoloVip.forEach((vip) => {
     console.log(`L'Ospite ${vip.nome_ospite} siederà al ${vip.nome_tavolo} al posto n. ${vip.posto_occupato}`)
 });

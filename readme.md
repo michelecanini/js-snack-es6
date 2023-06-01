@@ -31,6 +31,12 @@ Id  | Name                  | Grades
     2. creazione dell'array lista studenti con i dati della tabella
     3. crea un nuovo array con map per la lista in maiuscolo
     4. crea un nuovo array con filter per la lista dei voti superiori a 70
-    5. crea un nuovo array con filter per la lista con voti superiori a 70 e id superiore a 120
-    6. controllo dei valori con if
-    7. generare e stampare in console le liste
+    5. controllo dei valori con if
+    6. ? SE i voti dello studente sono superiori a 70
+        6.1 stampa a video il nome dello studente
+    7. : ALTRIMENTI vai avanti
+    8. crea un nuovo array con filter per la lista con voti superiori a 70 e id superiore a 120
+    9. ? SE i voti dello studente sono superiori a 70 e lo studente ha un id superiore a 120
+        9.1 stampa a video il nome dello studente
+    10. : ALTRIMENTI vai avanti
+    11. generare e stampare in console le liste
