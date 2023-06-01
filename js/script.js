@@ -59,7 +59,7 @@ let tavoloVip = [
     {
         nome_tavolo: 'Tavolo Vip',
         nome_ospite: 'Maneskin',
-        posto_occupato: '9,10,11,12',
+        posto_occupato: '9, 10, 11, 12',
     }, 
 ]
 console.log(tavoloVip)
@@ -67,6 +67,7 @@ console.log(tavoloVip)
 // LOGICA DEL PROGRAMMA
 
 // CICLO FOREACH PER LA STAMPA DELLA LISTA DEGLI INVITATI DA MANDARE IN TIPOGRAFIA
+
 tavoloVip.forEach((vip) => {
-    console.log("L'Ospite " + vip.nome_ospite + ' siederà al ' + vip.nome_tavolo + ' al posto n. ' + vip.posto_occupato)
+    console.log(`L'Ospite ${vip.nome_ospite} siederà al ${vip.nome_tavolo} al posto n. ${vip.posto_occupato}`)
 });
