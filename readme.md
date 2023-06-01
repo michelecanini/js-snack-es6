@@ -11,10 +11,11 @@
     2. creazione dell'array
     3. inserimento nell'array come oggetti degli invitati
     4. inserimento degli attributi, nome del tavolo, nome ospite e posto occupato
-    5. generare e stampare in console la lista per i segnaposto
+    5. creare un ciclo forEach
+    6. generare e stampare in console la lista per i segnaposto
 
 ### PROBLEMA SNACK 2
-#### Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e somma totale dei loro voti di esame... 1.Per preparare l'aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo, ES (Marco della Rovere => MARCO DELLA ROVERE); 2.Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 3.Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120, Questo è l'elenco degli studenti:```
+#### Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e somma totale dei loro voti di esame...  1.Per preparare l'aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo, ES (Marco della Rovere => MARCO DELLA ROVERE); 2.Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 3.Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120, Questo è l'elenco degli studenti:```
 
 Id  | Name                  | Grades
 --- | --------------------- | -----
@@ -26,4 +27,10 @@ Id  | Name                  | Grades
 102 | Piero della Francesca | 50
 120 | Francesca da Polenta  | 84
 
-    1. in progress...
+    1. dichiarazione delle variabili
+    2. creazione dell'array lista studenti con i dati della tabella
+    3. crea un nuovo array con map per la lista in maiuscolo
+    4. crea un nuovo array con filter per la lista dei voti superiori a 70
+    5. crea un nuovo array con filter per la lista con voti superiori a 70 e id superiore a 120
+    6. controllo dei valori con if
+    7. generare e stampare in console le liste
