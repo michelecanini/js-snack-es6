@@ -16,3 +16,37 @@
 //196 Luigi Grimaldello 	    68
 //102 Piero della Francesca   50
 //120 Francesca da Polenta    84
+
+
+// DICHIARAZIONE DELLE VARIABILI
+
+// VARIABILE DELL'ARRAY DEGLI STUDENTI CON GLI OBJECT ALL'INTERNO
+let nomeMaiuscolo = [
+    {
+        id: '213',
+        name: 'Marco della Rovere',
+        grades: '78',
+    },
+    {
+        id: '110',
+        name: 'Paola Coretellessa',
+        grades: '96',
+    },
+    {
+        id: '250',
+        name: 'Andrea Mantegna',
+        grades: '48',
+    },
+    {
+        id: '145',
+        name: 'Gaia Borromini',
+        grades: '74',
+    },
+]
+
+// LOGICA DEL PROGRAMMA
+
+// CICLO FOREACH PER LA STAMPA DELLA LISTA DEGLI STUDENTI IN MAIUSCOLO
+nomeMaiuscolo.forEach((maiuscolo) => {
+    console.log(`${maiuscolo.name.toUpperCase()}`)
+});
