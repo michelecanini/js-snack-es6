@@ -21,7 +21,7 @@
 // DICHIARAZIONE DELLE VARIABILI
 
 // VARIABILE DELL'ARRAY DEGLI STUDENTI CON GLI OBJECT ALL'INTERNO
-let nomeMaiuscolo = [
+let nomeStudenteMaiuscolo = [
     {
         id: '213',
         name: 'Marco della Rovere',
@@ -42,11 +42,29 @@ let nomeMaiuscolo = [
         name: 'Gaia Borromini',
         grades: '74',
     },
+    {
+        id: '196',
+        name: 'Luigi Grimaldello',
+        grades: '68',
+    },
+    {
+        id: '102',
+        name: 'Piero della Francesca',
+        grades: '50',
+    },
+    {
+        id: '120',
+        name: 'Francesca da Polenta',
+        grades: '84',
+    },
 ]
 
 // LOGICA DEL PROGRAMMA
 
+// TITOLO LISTA IN MAIUSCOLO PER LE TARGHE
+console.log ('Elenco degli studenti in Maiuscolo per le targhe:')
+
 // CICLO FOREACH PER LA STAMPA DELLA LISTA DEGLI STUDENTI IN MAIUSCOLO
-nomeMaiuscolo.forEach((maiuscolo) => {
+nomeStudenteMaiuscolo.forEach((maiuscolo) => {
     console.log(`${maiuscolo.name.toUpperCase()}`)
 });
