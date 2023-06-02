@@ -21,7 +21,7 @@
 // DICHIARAZIONE DELLE VARIABILI
 
 // VARIABILE DELL'ARRAY DEGLI STUDENTI CON GLI OBJECT ALL'INTERNO
-let nomeStudenteMaiuscolo = [
+let elencoStudenti = [
     {
         id: '213',
         name: 'Marco della Rovere',
@@ -65,6 +65,19 @@ let nomeStudenteMaiuscolo = [
 console.log ('Elenco degli studenti in Maiuscolo per le targhe:')
 
 // CICLO FOREACH PER LA STAMPA DELLA LISTA DEGLI STUDENTI IN MAIUSCOLO
-nomeStudenteMaiuscolo.forEach((maiuscolo) => {
+elencoStudenti.forEach((maiuscolo) => {
     console.log(`${maiuscolo.name.toUpperCase()}`)
+});
+
+// TITOLO LISTA STUDENTI CON VOTO SUPERIORE A 70
+console.log ('')
+console.log ('Elenco degli studenti con voto superiore a 70:')
+
+// CICLO FOREACH PER LA STAMPA DELLA LISTA DEGLI STUDENTI CON VOTO SUPERIORE A 70
+elencoStudenti.forEach((voto_maggiore_70) => {
+    if (voto_maggiore_70.grades > 70){
+    console.log(`Lo studente ${voto_maggiore_70.name} ha ottenuto una media voti: ${voto_maggiore_70.grades} punti`)
+    }else{
+
+    }
 });
