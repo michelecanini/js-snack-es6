@@ -1,4 +1,4 @@
-"use stript";
+"use strict";
 
 // PROBLEMA: SNACK 2
 //Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e somma totale dei loro voti di esame...

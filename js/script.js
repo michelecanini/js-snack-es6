@@ -1,4 +1,4 @@
-"use stript";
+"use strict";
 
 // PROBLEMA: SNACK 1
 //Il Grande Gatsby ci ha chiesto di creare i segnaposto per il tavolo degli invitati alla sua mega festa vip.
