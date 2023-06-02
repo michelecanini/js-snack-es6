@@ -81,3 +81,16 @@ elencoStudenti.forEach((voto_maggiore_70) => {
 
     }
 });
+
+// TITOLO LISTA STUDENTI CON VOTO SUPERIORE A 70 E ID SUPERIORE A 120
+console.log ('')
+console.log ('Elenco degli studenti con voto superiore a 70 ed id superiore a 120:')
+
+// CICLO FOREACH PER LA STAMPA DELLA LISTA DEGLI STUDENTI CON VOTO SUPERIORE A 70 ED ID SUPERIORE A 120
+elencoStudenti.forEach((voto_70_id_120) => {
+    if ((voto_70_id_120.grades > 70) && (voto_70_id_120.id > 120)){
+    console.log(`Lo studente ${voto_70_id_120.name} ha ottenuto una media voti: ${voto_70_id_120.grades} punti, ed ha l'identificativo: N.${voto_70_id_120.id}`)
+    }else{
+
+    }
+});
