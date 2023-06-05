@@ -2,6 +2,114 @@
 
 // PROBLEMA: Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti. Nome sarà l'unica proprietà da compilare, le altre saranno tutte settate a 0. Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli subiti. Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
+// ARRAY PER DATI RANDOM LEGA SERIE A
+
+const legaSerieA = [
+    {
+        nome: 'Napoli',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Lazio',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Inter',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Milan',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Atalanta',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Roma',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Juventus',
+        punti_fatti: 00,
+        falli_subiti: 00,
+    },
+    {
+        nome: 'Fiorentina',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Bologna',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Torino',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Monza',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Udinese',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Sassuolo',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Empoli',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Salernitana',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Lecce',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Spezia',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Verona',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Cremonese',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+    {
+        nome: 'Sampdoria',
+        punti_fatti: 0,
+        falli_subiti: 0,
+    },
+]        
+console.log(legaSerieA)
+
+// DATI REALI LEGA SERIE A
+/*
 const legaSerieA = [
     {
         nome: 'Napoli',
@@ -105,4 +213,4 @@ const legaSerieA = [
     },
 ]        
 console.log(legaSerieA)
-
+*/
