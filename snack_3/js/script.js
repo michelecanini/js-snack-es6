@@ -30,9 +30,14 @@ console.log(racingBike[4].bike_weigth)
 
 //DESTRUCTURING 
 
-let {bike_name, bike_weigth} = racingBike[4];
-console.log(bike_name, bike_weigth)
+//let {bike_name, bike_weigth} = racingBike[4];
+//console.log(bike_name, bike_weigth)
 
 //TEMPLATE LITERAL
 
 console.log(`La bici ${racingBike[4].bike_name} è quella che ha il peso minore che equivale a ${racingBike[4].bike_weigth} kg`)
+
+//DESTRUCTURING + TEMPLATE LITERAL
+
+let {bike_name, bike_weigth} = racingBike[4];
+console.log(`La bici ${bike_name} è quella che ha il peso minore che equivale a ${bike_weigth} kg`)
