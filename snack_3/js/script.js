@@ -28,10 +28,11 @@ console.log(racingBike)
 console.log(racingBike[4].bike_name)
 console.log(racingBike[4].bike_weigth)
 
-//DESTRUCTURING + TEMPLATE LITERAL
+//DESTRUCTURING 
 
-let newArray = [];
+let {bike_name, bike_weigth} = racingBike[4];
+console.log(bike_name, bike_weigth)
 
-//for(let i=0; i<racingBike.length; i++){
-//    console.log(racingBike[4])
-//}
+//TEMPLATE LITERAL
+
+console.log(`La bici ${racingBike[4].bike_name} è quella che ha il peso minore che equivale a ${racingBike[4].bike_weigth}`)
