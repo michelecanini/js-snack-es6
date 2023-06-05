@@ -43,7 +43,7 @@ Id  | Name                  | Grades
 
 ### PROBLEMA SNACK 3
 
-#### Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso. Stampare in console la bici con peso minore utilizzando destructuring e template literal
+#### Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le seguenti proprietà:`nome` e `peso`. Stampare in console la bici con peso minore utilizzando destructuring e template literal
     1. creare l'array di oggetti
     2. inserire oggetti "bici da corsa" con nome e peso
     3. recuperare i valori della bici piu leggera
@@ -51,7 +51,7 @@ Id  | Name                  | Grades
 
 ### PROBLEMA SNACK 4
 
-#### Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti. Nome sarà l'unica proprietà da compilare, le altre saranno tutte settate a 0. Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli subiti. Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+#### Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: `nome`, `punti fatti`, `falli subiti`. `Nome` sarà l'unica proprietà da compilare, le altre saranno tutte settate a 0. Generare numeri random al posto degli 0 nelle proprietà: `punti fatti` e `falli subiti`. Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
     1. creare l'array di oggetti
     2. inserire oggetti "squadre di calcio" con nome, punti fatti, falli subiti
     3. stampare in console.log la bici con peso minore con destructuring e template literal
