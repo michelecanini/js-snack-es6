@@ -46,6 +46,7 @@ Id  | Name                  | Grades
 #### Creare un array di oggetti: Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso. Stampare in console la bici con peso minore utilizzando destructuring e template literal
     1. creare l'array di oggetti
     2. inserire oggetti "bici da corsa" con nome e peso
+    3. recuperare i valori della bici piu leggera
     3. stampare in console.log la bici con peso minore con destructuring e template literal
 
 ### PROBLEMA SNACK 4

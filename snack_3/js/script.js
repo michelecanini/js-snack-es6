@@ -35,4 +35,4 @@ console.log(bike_name, bike_weigth)
 
 //TEMPLATE LITERAL
 
-console.log(`La bici ${racingBike[4].bike_name} è quella che ha il peso minore che equivale a ${racingBike[4].bike_weigth}`)
+console.log(`La bici ${racingBike[4].bike_name} è quella che ha il peso minore che equivale a ${racingBike[4].bike_weigth} kg`)
