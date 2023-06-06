@@ -70,5 +70,20 @@ const biciDaCorsa = [
 
 //DESTRUCTURING + TEMPLATE LITERAL
 
-let {nome, peso} = biciDaCorsa[4];
+//let {nome, peso} = biciDaCorsa[4];
+//console.log(`La bici ${nome} è quella che ha il peso minore che equivale a ${peso} kg`)
+
+//DESTRUCTURING + TEMPLATE LITERAL + FOR
+
+let bici_peso_min = biciDaCorsa[0];
+
+for(let i=0; i<biciDaCorsa.length; i++){
+    if(biciDaCorsa[i].peso < bici_peso_min.peso){
+        bici_peso_min = biciDaCorsa[i];
+    }
+}
+console.log(bici_peso_min)
+
+let {nome, peso} = bici_peso_min;
+
 console.log(`La bici ${nome} è quella che ha il peso minore che equivale a ${peso} kg`)

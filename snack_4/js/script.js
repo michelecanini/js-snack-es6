@@ -37,8 +37,8 @@ const legaSerieA = [
     },
     {
         nome: 'Juventus',
-        punti_fatti: 00,
-        falli_subiti: 00,
+        punti_fatti: 0,
+        falli_subiti: 0,
     },
     {
         nome: 'Fiorentina',
@@ -107,6 +107,11 @@ const legaSerieA = [
     },
 ]        
 console.log(legaSerieA)
+
+// FUNZIONE DEI NUMERI CASUALI
+function getRndInterger(min, max) {
+    return Math.floor(Math.random() * (max, min + 1)) + min;
+}
 
 // DATI REALI LEGA SERIE A
 /*
