@@ -114,6 +114,20 @@ legaSerieA.forEach((element) => {
     element.falli_subiti = Math.floor(Math.random() * 14) + 1;
 });
 
+const newArray = legaSerieA.map((element) => {
+    const {nome, falli_subiti} = element; 
+
+    let oggetto = {
+        nome,
+        falli_subiti
+    }
+    return oggetto;
+});
+
+console.log(newArray)
+
+
+
 // DATI REALI LEGA SERIE A
 /*
 const legaSerieA = [
